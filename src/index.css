@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}
+.author {
+  text-align: center;
+}
+.error {
+  color: red;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+
 }
